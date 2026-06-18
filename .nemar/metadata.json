@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005929",
-  "source": "openneuro",
-  "source_id": "ds005929",
+  "pipeline_stage": "enriched",
   "title": "Motion-Yucel2014",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Yücel, Meryem": {},
     "Selb, Juliette": {},
@@ -11,27 +11,92 @@
     "Cash, Sydney": {},
     "Cooper, Robert": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005929.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1016/j.neuroimage.2013.06.054",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005929",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005929",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.1",
-  "recording_modality": [
-    "nirs"
-  ],
-  "datatypes": [
-    "nirs"
   ],
   "funding_references": [
     {
-      "funder_name": "NIH grants P41-RR14075, R01-EB006385 and R90-DA023427"
+      "funder_name": "NIH",
+      "award_number": "P41-RR14075"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01-EB006385"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R90-DA023427"
     }
   ],
-  "acknowledgements": "This work was supported by NIH grants P41-RR14075, R01-EB006385, and R90-DA023427. We thank the participants and clinical staff who supported the study."
+  "modalities": [
+    "nirs"
+  ],
+  "resource_type_specific": "fNIRS Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".SD",
+    ".json",
+    ".md",
+    ".snirf",
+    ".tsv"
+  ],
+  "description": "This dataset contains near-infrared spectroscopy (NIRS) recordings from clinical monitoring sessions designed to evaluate motion artifact reduction techniques. The study implements collodion-fixed prism-based optical fibers to minimize motion-related noise in long-term NIRS monitoring, with applications to clinical neuroimaging and brain activity assessment. This dataset is mirrored on NEMAR from OpenNeuro (ds005929).",
+  "methods_description": "Data were collected using NIRS with collodion-fixed prism-based optical fibers to reduce motion artifacts during clinical monitoring. The study was approved by the Massachusetts General Hospital Institutional Review Board.",
+  "keywords": [
+    {
+      "term": "NIRS"
+    },
+    {
+      "term": "near-infrared spectroscopy"
+    },
+    {
+      "term": "fNIRS"
+    },
+    {
+      "term": "motion artifacts"
+    },
+    {
+      "term": "artifact reduction"
+    },
+    {
+      "term": "optical fibers"
+    },
+    {
+      "term": "collodion-fixed"
+    },
+    {
+      "term": "prism-based optical fibers"
+    },
+    {
+      "term": "clinical monitoring"
+    },
+    {
+      "term": "brain imaging"
+    },
+    {
+      "term": "hemodynamics"
+    }
+  ],
+  "source_hash": "fffeb3201f4b2574e487b5feedce0b6cecde6d283500e581f1b8449f5616836c"
 }
