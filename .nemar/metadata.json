@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Motion-Yucel2014",
+  "description": "This dataset contains near-infrared spectroscopy (NIRS) recordings from clinical monitoring studies designed to evaluate motion artifact reduction techniques in long-term neuroimaging applications. The study implements collodion-fixed prism-based optical fibers to minimize motion-related artifacts during extended NIRS monitoring sessions, with potential applications in clinical neuroscience research.",
+  "methods_description": "Data were collected using near-infrared spectroscopy (NIRS) with collodion-fixed prism-based optical fibers. The study was approved by the Massachusetts General Hospital Institutional Review Board.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,24 @@
     "Cash, Sydney": {},
     "Cooper, Robert": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005929.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "NIRS"
     },
+    {
+      "term": "motion artifacts"
+    },
+    {
+      "term": "optical neuroimaging"
+    },
+    {
+      "term": "clinical monitoring"
+    },
+    {
+      "term": "near-infrared spectroscopy"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1016/j.neuroimage.2013.06.054",
       "identifier_type": "DOI",
@@ -31,6 +45,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005929",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005929.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,56 +66,20 @@
       "award_number": "R90-DA023427"
     }
   ],
+  "resource_type_specific": "fNIRS Dataset",
   "modalities": [
     "nirs"
   ],
-  "resource_type_specific": "fNIRS Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "71.8 MB (9 files)"
   ],
   "formats": [
     ".SD",
     ".json",
     ".md",
     ".snirf",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset contains near-infrared spectroscopy (NIRS) recordings from clinical monitoring sessions designed to evaluate motion artifact reduction techniques. The study implements collodion-fixed prism-based optical fibers to minimize motion-related noise in long-term NIRS monitoring, with applications to clinical neuroimaging and brain activity assessment. This dataset is mirrored on NEMAR from OpenNeuro (ds005929).",
-  "methods_description": "Data were collected using NIRS with collodion-fixed prism-based optical fibers to reduce motion artifacts during clinical monitoring. The study was approved by the Massachusetts General Hospital Institutional Review Board.",
-  "keywords": [
-    {
-      "term": "NIRS"
-    },
-    {
-      "term": "near-infrared spectroscopy"
-    },
-    {
-      "term": "fNIRS"
-    },
-    {
-      "term": "motion artifacts"
-    },
-    {
-      "term": "artifact reduction"
-    },
-    {
-      "term": "optical fibers"
-    },
-    {
-      "term": "collodion-fixed"
-    },
-    {
-      "term": "prism-based optical fibers"
-    },
-    {
-      "term": "clinical monitoring"
-    },
-    {
-      "term": "brain imaging"
-    },
-    {
-      "term": "hemodynamics"
-    }
-  ],
-  "source_hash": "fffeb3201f4b2574e487b5feedce0b6cecde6d283500e581f1b8449f5616836c"
+  "source_hash": "70f84a767ff91abaff653ccd96a077d4368135f5c68828c076ccab494d3057f8"
 }
