@@ -1,1 +1,1 @@
-{"TaskName":"MA","SamplingFrequency":50,"NIRSChannelCount":28,"NIRSSourceOptodeCount":6,"NIRSDetectorOptodeCount":10}
+{"TaskName":"MA","SamplingFrequency":50,"NIRSChannelCount":28,"NIRSSourceOptodeCount":6,"NIRSDetectorOptodeCount":10,"RecordingDuration":796.0,"RecordingType":"continuous","Manufacturer":"TechEn","ManufacturersModelName":"CW6"}
